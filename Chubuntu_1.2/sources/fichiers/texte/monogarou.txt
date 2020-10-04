@@ -1,0 +1,46 @@
+				MonoGarou
+
+#Mélange de 'monopoly' et de 'loup-garou'
+
+Idées:
+--------------------------------------------------------------------------------
+*Loup-garous
+-Les tours du loup-garou ne se font que une fois sur deux lorsque le maire passe la case départ (tirage d'une carte évenement, nuit, vote du village)
+--------------------------------------------------------------------------------
+*Maire:
+-Élection du Maire aux enchères
+--------------------------------------------------------------------------------
+*Gares:
+-Les gares proposent aux joueures de les faires passer a une autre gare en les faisant payer 10.000 frcs et uniquement lorsque la gare  d'arrivée appartient a un joueur
+--------------------------------------------------------------------------------
+*Nuits:
+-Les nuits se passent dès que(une fois sur deux) le maire passe la case "départ"
+-Si durant la nuit une personne est tuée, elle vas a l'hopitale (ancienne case "parc gratuit")
+--------------------------------------------------------------------------------
+*Hopital:
+-La case Hopitale est a la place du parc gratuit. Les joueurs envoyés a l'hoptitale payent des frais d'hospitalisation s'élevant a 10.000 frcs. Il y reste coincé trois tours. Les joueures qui passe sur la case hopitale doivent payer des frais d'encouragement des bléssé uniquement si un joueur est a l'hopitale. Les frais'élevent a 1.000 frcs.
+--------------------------------------------------------------------------------
+*Amoureux:
+-Les amoureux peuvent faire 'compte commun' et se passer de l'argent discrètement
+-Si un des deux amoureux vas a l'hopital, l'autre est obligé de l'y acompagner
+--------------------------------------------------------------------------------
+*Vote de mort:
+-Lors du vote de la ville, la personne désignée pour mourir ne vas que en prison pour trois tours
+--------------------------------------------------------------------------------
+*Évenement:
+-A chaques tours le Maire tire une carte "évenement"
+-Les cartes "évenement" : 
+	-grève des trains  --> les joueures ne peuvent pas se déplacer entrent l 	 es gares
+	-pandémie --> chaques joueurs reste coincé sur sa case pendant deux tour		 s mais payent le loyer
+	-manifestations --> le maire tire cinque cartes rues. Les joueures se tr		 ouvant sur cette case sont ralentis et ne joue pas ce tour ci. 
+	-revenu mensuel --> chaques joueurs reçoivent leurs revenus mensuels ti
+	 rrés au dé 6. La somme reçus est le montant du dé X 2000 
+	-association caritative -->  chaques joueurs doit verser 2.000 frcs au/x 	 joueur/s a l'hopital. Si il n'y as pas de joueurs a l'hopitale, le mair		 e récupère la mise.
+	-push --> le maire as les pleins pouvoir pendant son tour et peut décide		 r ou se placent les joueurs. Il n'as pas le droit de mettre plus de 1 j	 	 oueur sur la même case.
+	-incendie --> chaques terrains sur lequels des maisons sont présentes, e  	 n perdent une (l'incendie n'est que sur un coté du terrain)
+	-offre-que-on-ne-peut-pas-refuser --> personne ne peut refuser une offre 	 pour un terrains au triple de la valeure initiale
+	-vent fort avant/arrière --> pendant deux tours, les joueurs avancent de         une case de plus/moins que la valeure indiquée par les dés.
+	-élections municipales --> le maire est déstitué et un nouveau maire est 	 "élu" aux enchères
+	-vague de touristes --> chaques hotels rapporte 7.000 frcs aux joueurs 	         les possédants et 1.000 frcs aux maisons
+        -J.O de paris --> les joueurs avancent pendant deux tours de deux fois m         oins que le résultat des dés mais les hotels étants plein, les joueurs          ne payent pas en tombant dessus (parceque plus de place)
+--------------------------------------------------------------------------------

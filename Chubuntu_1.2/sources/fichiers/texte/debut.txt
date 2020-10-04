@@ -1,0 +1,16 @@
+    Chubuntu est une sorte de sur-shell, uniquement de l'apparence et de la gestion de fichiers, codé avec python par Anton Appel. Il comprend un dictionnaire, un éditeur de texte, un terminal et un calculatrice.
+TERMINAL :
+Commandes : 
+Vous pouvez optenir la liste des commandes avec la commande : 'get_commands'.
+
+BLOC-NOTES
+Vous pouvez ouvrir un document texte avec le bloc note en rentrant le titre du fichier (exemple 'help') et en appuiant sur le boutton ouvrir.
+Si vous avez écrit un fichier et que vous voulez le sauvegarder, tapez un titre et cliquez sur le boutton sauvegarder. 
+Si vous voulez inclure un lien dans le texte, il faut que l'URL commence par les trois w suivis d'un point et finisse pas un 'point com'. Par exemple www.google.com. Un boutton ouvrir le site est présent en dessous de la barre de recherche du titre. Si vous cliquez dessus, elle ouvrira votre navigateur a la page indiqué (ici google.com). Attention, les sites supportés ne sont que ceux qui commencent par www. et qui finissent par '.com' ou '.fr' ou '.net'. Le boutton ne peux rediriger que a un seul url, et le premier dans le texte sera favorisé par exemple, si je met www.youtube.com , le site indiqué sera le premier (ici www.google.com).
+Vous pouvez créer des fichiers python en enregistrant la fichier avec .py  a la fin du nom. Le fichier sera executable en entrant la commande "python3 +nom.py" dans la console.
+
+Bonne journée,
+Anton Appel
+
+
+
