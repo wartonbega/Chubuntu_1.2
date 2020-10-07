@@ -77,7 +77,7 @@ window = Tk()
 window.bind("<Control_L>"+"q",destroy)
 
 window.title("zapaovi")
-window.attributes('-zoomed', True)
+window.attributes('-fullscreen', True)
 window.config(background='#2f3034')
 window.minsize(480, 360)
 
