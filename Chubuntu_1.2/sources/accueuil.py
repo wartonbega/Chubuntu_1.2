@@ -3,7 +3,7 @@ import os
 import time
 
 
-infos=[["test","anton",],["test","ruta5056baga",],["X","X",]]
+infos=[["test"],["test"],["X",]]
 recherche=['',]
 got=0
 
@@ -58,7 +58,6 @@ def log():
                 file.write(infos[2][hey])
                 file.close()
                 log_biena.pack()
-                time.sleep(5)
                 os.popen("python3 main.py","r")
                 window.destroy()
                 break
