@@ -51,14 +51,14 @@ def log():
                 log_valider.forget()
 
                 a=infos[0][hey]
-                fichier=open("./settings/login.txt","w")
+                fichier=open("./sources/settings/login.txt","w")
                 fichier.write(a)
                 fichier.close()
-                file=open("./settings/admin.txt","w")
+                file=open("./sources/settings/admin.txt","w")
                 file.write(infos[2][hey])
                 file.close()
                 log_biena.pack()
-                os.popen("python3 main.py","r")
+                os.popen("python3 ./sources/main.py","r")
                 window.destroy()
                 break
             else:
