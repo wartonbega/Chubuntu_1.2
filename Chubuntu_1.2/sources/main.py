@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from tkinter import*
 import os
 import string
@@ -108,7 +109,7 @@ for i in range(len(filen)):
         files.append(filen[i])
 
 def refreshe():
-    fichier = open("./settings/colors","r")
+    fichier = open("./sources/settings/colors","r")
     couleur=fichier.read()
     fichier.close()
     window.config(bg=couleur)
@@ -132,7 +133,7 @@ def ba():
     if couleur == 'black':
         button0.config(fg='white')
     nbr=0
-    fichier = open('./settings/sombre','r')
+    fichier = open('./sources/settings/sombre','r')
     sombre = fichier.read()
     fichier.close()
     
@@ -171,7 +172,7 @@ def runa(event):
 def butge(a):
     alea = random.randint(0,10)
     if alea == 4:
-        fichier = open("./settings/jeu.txt","w")
+        fichier = open("./sources/settings/jeu.txt","w")
         fichier.write(a)
         fichier.close()
         os.popen("python3 test.py")
@@ -183,7 +184,7 @@ def sobre():
     global mode
     global barre
     if mode == 'oui':
-        fichier = open("./settings/sombre","w")
+        fichier = open("./sources/settings/sombre","w")
         fichier.write('non')
         fichier.close()
         window.config(bg=couleur)
@@ -195,7 +196,7 @@ def sobre():
             else:
                 button0.config(bg=couleur,fg='black')
     elif mode == 'non':
-        fichier = open("./settings/sombre","w")
+        fichier = open("./sources/settings/sombre","w")
         fichier.write('oui')
         fichier.close()
         window.config(bg='black')
@@ -205,7 +206,7 @@ def sobre():
             button0.config(bg='black',fg='white')
         
 def reglages():
-    file = open('./settings/sombre','r')
+    file = open('./sources/settings/sombre','r')
     so = file.read()
     file.close()
     
@@ -249,13 +250,13 @@ def couleure():
     else:
         try:
             if couleur == 'sombre':
-                fichier = open("./settings/sombre",'w')
+                fichier = open("./sources/settings/sombre",'w')
                 fichier.write('oui')
                 fichier.close()
                 window.config(bg='black')
             else:
                 window.config(bg=couleur)
-                fichier = open("./settings/colors", "w")
+                fichier = open("./sources/settings/colors", "w")
                 fichier.write(couleur)
                 fichier.close()
                 
@@ -273,7 +274,7 @@ def destroy(event):
 
 
 #configuration des couleurs
-fichier=open("./settings/colors", "r")
+fichier=open("./sources/settings/colors", "r")
 couleur=fichier.read()
 fichier.close()
 
@@ -288,7 +289,7 @@ window.attributes('-fullscreen', True)
 
 window.config(bg=couleur)
 
-file = open('./settings/sombre','r')
+file = open('./sources/settings/sombre','r')
 so = file.read()
 file.close()
 
